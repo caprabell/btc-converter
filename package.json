@@ -1,0 +1,24 @@
+{
+  "name": "js-tdd-course",
+  "version": "1.0.0",
+  "description": "Biblioteca do curso TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "\u001b[D"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caprabell/js-tdd-course.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Mauricio Bell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caprabell/js-tdd-course/issues"
+  },
+  "homepage": "https://github.com/caprabell/js-tdd-course#readme"
+}

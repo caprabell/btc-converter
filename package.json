@@ -4,6 +4,8 @@
   "description": "Biblioteca do curso TDD",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint src/*.js",
+    "prepush": "npm run lint",
     "test": "\u001b[D"
   },
   "repository": {
@@ -20,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/caprabell/js-tdd-course/issues"
   },
-  "homepage": "https://github.com/caprabell/js-tdd-course#readme"
+  "homepage": "https://github.com/caprabell/js-tdd-course#readme",
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "husky": "^0.14.3"
+  }
 }

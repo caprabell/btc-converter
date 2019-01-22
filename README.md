@@ -1,2 +1,3 @@
-# TDD Course
-Adding an tdd basic settings to a project. :wrench:
+# Bitcoin converter
+A CLI to convert bitcoin to any provided currrency.
+

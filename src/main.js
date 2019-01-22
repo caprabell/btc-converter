@@ -1,8 +1,3 @@
-const a = 1;
-const b = 2;
+#!/usr/bin/env node
 
-function sum() {
-  return a + b;
-}
-
-sum();
+console.log('Hello World!');

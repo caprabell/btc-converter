@@ -144,3 +144,5 @@ typings/
 
 # Serverless directories
 .serverless
+
+bin

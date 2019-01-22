@@ -1,6 +1,14 @@
 {
   "extends": "airbnb-base",
+  "settings": {
+    "react": {
+        "version": "require('./package.json').dependencies.node"
+    }
+},
   "plugins": [
-      "import"
+    "node",
+    "import",
+    "jsx-a11y",
+    "flowtype"
   ]
 }

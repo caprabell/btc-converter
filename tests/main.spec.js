@@ -14,10 +14,27 @@ describe('Main CLI', () => {
       done();
     });
   });
+
   it('should return a description when call --help', (done) => {
     exec(`${btcConverter} --help`, (err, stdout, stderr) => {
       if (err) throw err;
       expect(stdout.includes('Convert Bitcoin to any provided currency')).to.be.true;
+      done();
+    });
+  });
+
+  it('should return a currency option when btc-converter --help', (done) => {
+    exec(`${btcConverter} --help`, (err, stdout, stderr) => {
+      if (err) throw err;
+      expect(stdout.includes('--currency')).to.be.true;
+      done();
+    });
+  });
+
+  it('should return a amount option when btc-converter --help', (done) => {
+    exec(`${btcConverter} --help`, (err, stdout, stderr) => {
+      if (err) throw err;
+      expect(stdout.includes('--amount')).to.be.true;
       done();
     });
   });
